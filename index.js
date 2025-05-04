@@ -30,7 +30,6 @@ const thingTwo = "World";
 console.log(thingOne + " " + thingTwo); // Hello World
 
 // 5. Total bill
-// استخدام var كما هو مطلوب: حساب الفاتورة، البقشيش (15%)، والمجموع
 let bill = 10.25 + 3.99 + 7.15;
 let tip = bill * 0.15; // 15% من قيمة الفاتورة
 let total = bill + tip;
