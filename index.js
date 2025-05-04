@@ -7,12 +7,12 @@ console.log("The area of the rectangle is: " + area);
 
 // 2. محول درجة الحرارة
 // من مئوية إلى فهرنهايت
-const celsius = 25; // مثال: 25°C
+const celsius = 25;
 const fahrenheitFromC = (celsius * 9) / 5 + 32;
 console.log(`${celsius}°C is ${fahrenheitFromC}°F`); // 25°C is 77°F
 
 // من فهرنهايت إلى مئوية
-const fahrenheit = 77; // مثال: 77°F
+const fahrenheit = 77;
 const celsiusFromF = ((fahrenheit - 32) * 5) / 9;
 console.log(`${fahrenheit}°F is ${celsiusFromF}°C`); // 77°F is 25°C
 
@@ -31,9 +31,9 @@ console.log(thingOne + " " + thingTwo); // Hello World
 
 // 5. Total bill
 // استخدام var كما هو مطلوب: حساب الفاتورة، البقشيش (15%)، والمجموع
-var bill = 10.25 + 3.99 + 7.15;
-var tip = bill * 0.15; // 15% من قيمة الفاتورة
-var total = bill + tip;
+let bill = 10.25 + 3.99 + 7.15;
+let tip = bill * 0.15; // 15% من قيمة الفاتورة
+let total = bill + tip;
 console.log(total); // يطبع إجمالي المبلغ (bill + tip)
 
 // 6. Mad Libs
